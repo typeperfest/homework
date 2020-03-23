@@ -1,9 +1,10 @@
 i#include <iostream>
 
-int main()
+int
+main()
 {
-	std::string name; // Defenition, if name 2
-	std::cin>>name; // Entering the имя 2
-	std::cout<<"Hello world from "<<name<<std::endl; // Main, task 2
-	return 0;
+  std::string name;                                      // Defenition of string
+  std::cin >> name;                                      // Entering the name
+  std::cout << "Hello world from " << name << std::endl; // Main Task
+  return 0;
 }
